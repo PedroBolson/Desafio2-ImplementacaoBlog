@@ -21,7 +21,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 110%;
+    width: 117%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
@@ -35,7 +35,7 @@ header {
 .navbar {
     display: flex;
     align-items: center;
-    padding: .8rem 1.5rem;
+    padding: 1.6rem 2.4rem;
 }
 
 .logo {
@@ -44,6 +44,8 @@ header {
     font-size: 1.5rem;
     font-weight: 700;
     margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
 .paw-emoji {
@@ -54,18 +56,23 @@ header {
     list-style: none;
     display: flex;
     align-items: center;
+    flex: 1;
     gap: 1rem;
+}
+
+.nav-links li {
+    position: relative;
 }
 
 .nav-links a {
     color: #fff;
     text-decoration: none;
-    padding: 0.5rem 0.8rem;
-    transition: opacity 0.3s ease;
+    padding: .5em .5rem;
+    transition: opacity .3s ease;
 }
 
 .nav-links a:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .dropdown {
@@ -77,10 +84,10 @@ header {
     position: absolute;
     top: 100%;
     left: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 48, 94);
     list-style: none;
-    padding: 0.5rem 1rem;
-    min-width: 120px;
+    padding: 0.5rem .6rem;
+    min-width: 100px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -90,25 +97,28 @@ header {
 .dropdown-content li a {
     display: block;
     padding: 0.4rem 0;
-    color: #fff;
+    color: #eeeeee;
     white-space: nowrap;
 }
 
 .btn-get-started {
-    margin-left: auto;
-    /* Empurra o botão para a direita */
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #000000;
     border: none;
     padding: 0.5rem 1.2rem;
     font-size: 0.9rem;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 50px;
     transition: background 0.3s ease;
 }
 
 .btn-get-started:hover {
-    background-color: #eeeeee;
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-2px);
+}
+
+.btn-get-started:active {
+    transform: translateY(3px);
 }
 
 .hamburger {
@@ -118,7 +128,7 @@ header {
     width: 24px;
     height: 18px;
     cursor: pointer;
-    margin-left: 1rem;
+    margin-left: auto;
 }
 
 .hamburger span {
@@ -129,10 +139,18 @@ header {
     border-radius: 2px;
 }
 
+.nav-links li:last-child {
+    margin-left: auto;
+}
+
+.hamburger span.last-bar {
+    width: 50%;
+}
+
 .hero {
     position: relative;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 75px;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -169,9 +187,10 @@ header {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 901px) {
     .hamburger {
         display: flex;
+        align-items: flex-end;
     }
 
     .nav-links,
@@ -188,18 +207,24 @@ header {
     }
 }
 
-.nav-links.active,
-.btn-get-started.active {
-    display: block !important;
-    background-color: rgba(0, 0, 0, 0.9);
+.nav-links.active {
+    display: flex !important;
+    flex-direction: column;
+    background-color: rgba(0, 48, 94);
+    color: #ffffff;
     position: absolute;
     top: 60px;
     right: 0;
     width: 200px;
-    padding: 1rem;
-    border-radius: 4px;
+    padding: 1.5rem;
+    border-radius: 50px;
 }
 
 .nav-links.active li {
     margin: 1rem 0;
+}
+
+.nav-links.active .btn-get-started {
+    width: 100%;
+    text-align: center;
 }
