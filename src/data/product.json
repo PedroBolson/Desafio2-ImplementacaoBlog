@@ -1,0 +1,71 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "categories": [
+                "cat"
+            ],
+            "name": "Multivitamin For Cat",
+            "price": 15000.00,
+            "quantity": 20,
+            "image": "images/cat-multivitamin.jpg",
+            "description": "Multivitamínico completo para gatos."
+        },
+        {
+            "id": 2,
+            "name": "Cat Food",
+            "categories": [
+                "cat"
+            ],
+            "price": 15000.00,
+            "quantity": 20,
+            "image": "images/cat-food.jpg",
+            "description": "Ração premium para gatos de todas as idades."
+        },
+        {
+            "id": 3,
+            "name": "Dog Food",
+            "categories": [
+                "dog"
+            ],
+            "price": 15000.00,
+            "quantity": 20,
+            "image": "images/dog-food.jpg",
+            "description": "Alimento balanceado para cães de porte médio."
+        },
+        {
+            "id": 4,
+            "categories": [
+                "cat",
+                "dog"
+            ],
+            "name": "Pet Plate",
+            "price": 15000.00,
+            "quantity": 20,
+            "image": "images/pet-plate.jpg",
+            "description": "Vasilhas resistentes e antiderrapantes para alimentar seu pet."
+        },
+        {
+            "id": 5,
+            "categories": [
+                "bird"
+            ],
+            "name": "Bird Water",
+            "price": 15000.00,
+            "quantity": 20,
+            "image": "images/bird-water.jpg",
+            "description": "Bebedouro automático para pássaros e aves domésticas."
+        },
+        {
+            "id": 6,
+            "categories": [
+                "dog"
+            ],
+            "name": "Dog Water",
+            "price": 15000.00,
+            "quantity": 20,
+            "image": "images/dog-water.jpg",
+            "description": "Fonte de água circulante para cães."
+        }
+    ]
+}

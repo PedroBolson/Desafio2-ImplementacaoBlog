@@ -1,0 +1,29 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "Grooming",
+            "description": "Serviço de banho e tosa profissional."
+        },
+        {
+            "id": 2,
+            "title": "Boarding",
+            "description": "Hotelzinho para o seu pet com todo o conforto."
+        },
+        {
+            "id": 3,
+            "title": "Adoption",
+            "description": "Encontre seu novo amigo de quatro patas."
+        },
+        {
+            "id": 4,
+            "title": "Veterinary",
+            "description": "Atendimento veterinário especializado."
+        },
+        {
+            "id": 5,
+            "title": "Training",
+            "description": "Treinamento e adestramento para cães de todas as idades."
+        }
+    ]
+}
