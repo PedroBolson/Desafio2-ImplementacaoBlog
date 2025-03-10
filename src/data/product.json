@@ -8,29 +8,29 @@
             "name": "Multivitamin For Cat",
             "price": 15000.00,
             "quantity": 20,
-            "image": "images/cat-multivitamin.jpg",
+            "image": "./src/images/Multivitamin_Cat.svg",
             "description": "Multivitamínico completo para gatos."
         },
         {
             "id": 2,
-            "name": "Cat Food",
             "categories": [
                 "cat"
             ],
+            "name": "Cat Food",
             "price": 15000.00,
             "quantity": 20,
-            "image": "images/cat-food.jpg",
+            "image": "./src/images/Food_Cat.svg",
             "description": "Ração premium para gatos de todas as idades."
         },
         {
             "id": 3,
-            "name": "Dog Food",
             "categories": [
                 "dog"
             ],
+            "name": "Dog Food",
             "price": 15000.00,
             "quantity": 20,
-            "image": "images/dog-food.jpg",
+            "image": "./src/images/Food_Dog.svg",
             "description": "Alimento balanceado para cães de porte médio."
         },
         {
@@ -42,7 +42,7 @@
             "name": "Pet Plate",
             "price": 15000.00,
             "quantity": 20,
-            "image": "images/pet-plate.jpg",
+            "image": "./src/images/Pet_Plate.svg",
             "description": "Vasilhas resistentes e antiderrapantes para alimentar seu pet."
         },
         {
@@ -53,7 +53,7 @@
             "name": "Bird Water",
             "price": 15000.00,
             "quantity": 20,
-            "image": "images/bird-water.jpg",
+            "image": "./src/images/Water_Bird.svg",
             "description": "Bebedouro automático para pássaros e aves domésticas."
         },
         {
@@ -64,7 +64,7 @@
             "name": "Dog Water",
             "price": 15000.00,
             "quantity": 20,
-            "image": "images/dog-water.jpg",
+            "image": "./src/images/Water_Dog.svg",
             "description": "Fonte de água circulante para cães."
         }
     ]

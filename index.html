@@ -13,63 +13,88 @@
 </head>
 
 <body>
-    <div class="hero-container">
-        <img src="./src/images/Section_Hero.png" class="hero-bg">
-        <header>
-            <nav class="navbar">
-                <h1 class="logo">
-                    <img src="./src/images/Vector.svg" alt="Paws Icon" class="logo-icon">Paws n' Play
-                </h1>
-                <ul class="nav-links">
-                    <li class="dropdown">
-                        <a href="#">Shop <img src="./src/images/Icon.svg" alt="Chevron down"></a>
-                        <ul class="dropdown-content">
-                            <li><a href="#">Cats</a></li>
-                            <li><a href="#">Dogs</a></li>
-                            <li><a href="#">Fish</a></li>
-                            <li><a href="#">Birds</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Services <img src="./src/images/Icon.svg" alt="Chevron down"></a>
-                        <ul class="dropdown-content">
-                            <li><a href="#">Grooming</a></li>
-                            <li><a href="#">Boarding</a></li>
-                            <li><a href="#">Adoption</a></li>
-                            <li><a href="#">Veterinary</a></li>
-                            <li><a href="#">Training</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><button class="btn-get-started">Get Started</button></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span class="last-bar"></span>
-                </div>
-            </nav>
-        </header>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Pawsitively Perfect: Where Every Pet's Dream Comes True!</h2>
-                <p>
-                    Welcome to Paws n' Play, the ultimate destination for pet lovers!
-                    Explore a world of tail-wagging joy and furry companionship with our wide range of products and
-                    services.
-                    From pampering essentials to playful toys, we're here to make every moment with your pet pawsitively
-                    perfect!
-                </p>
-                <button class="btn-shop-now">
-                    <span>Shop Now</span>
-                    <img src="./src/images/Vector.svg" alt="Paw icon" class="paw-icon" />
-                </button>
+    <header class="header-hero">
+        <nav class="navbar">
+            <h1 class="logo">
+                <img src="./src/images/Vector.svg" alt="Paws Icon" class="logo-icon">Paws n' Play
+            </h1>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#">Shop <img src="./src/images/Icon.svg" alt="Chevron down"></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Cats</a></li>
+                        <li><a href="#">Dogs</a></li>
+                        <li><a href="#">Fish</a></li>
+                        <li><a href="#">Birds</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Services <img src="./src/images/Icon.svg" alt="Chevron down"></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Grooming</a></li>
+                        <li><a href="#">Boarding</a></li>
+                        <li><a href="#">Adoption</a></li>
+                        <li><a href="#">Veterinary</a></li>
+                        <li><a href="#">Training</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button class="btn-get-started">Get Started</button></li>
+
+            </ul>
+            <div class="hamburger">
+                <img src="./src/images/bars.svg" class="hamburger-btn">
             </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-banner" id="top">
+            <img src="./src/images/Section_Hero.png" class="background">
+        </div>
+        <div class="hero-content">
+            <h2>Pawsitively Perfect: Where Every Pet's Dream Comes True!</h2>
+            <p>
+                Welcome to Paws n' Play, the ultimate destination for pet lovers!
+                Explore a world of tail-wagging joy and furry companionship with our wide range of products and
+                services.
+                From pampering essentials to playful toys, we're here to make every moment with your pet pawsitively
+                perfect!
+            </p>
+            <button class="btn-shop-now">
+                <span>Shop Now</span>
+                <img src="./src/images/Vector.svg" alt="Paw icon" class="paw-icon" />
+            </button>
+        </div>
+    </section>
+    <section id="shop">
+        <h2>
+            <img src="./src/images/Vector_dark.svg" alt="Paw icon" class="paw-icon" />
+            Shop
+        </h2>
+        <section class="products">
+            <h3>Featured Products</h3>
+            <header class="search-container">
+                <button class="search-btn">
+                    <img src="./src//images/Lupa.svg" alt="Search icon">
+                </button>
+                <input type="text" id="search-input" placeholder="Search">
+            </header>
+            <div class="filter-buttons">
+                <button class="filter-btn" data-filter="random">Random</button>
+                <button class="filter-btn" data-filter="cat">Cats</button>
+                <button class="filter-btn" data-filter="dog">Dogs</button>
+                <button class="filter-btn" data-filter="fish">Fish</button>
+                <button class="filter-btn" data-filter="bird">Birds</button>
+            </div>
+            <div class="products-grid">
+                <!-- Os cards dos produtos serão renderizados dinamicamente aqui -->
+            </div>
+            <a href="#top" class="back-to-top">↑</a>
         </section>
-    </div>
-    <script src="./dist/main.js"></script>
+    </section>
+    <script type="module" src="./dist/main.js"></script>
 </body>
 
 </html>
