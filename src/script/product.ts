@@ -10,6 +10,19 @@ interface Product {
 
 let allProducts: Product[] = [];
 
+//deslocamento do input de pesquisa mobile
+const searchWrapper = document.querySelector('.search-wrapper') as HTMLElement;
+
+if (searchWrapper) {
+    searchWrapper.addEventListener('click', () => {
+        searchWrapper.classList.toggle('active');
+        const input = searchWrapper.querySelector('.search-input-mobile') as HTMLInputElement;
+        if (input && searchWrapper.classList.contains('active')) {
+            input.focus();
+        }
+    });
+}
+
 const productList = document.getElementById("product-list") as HTMLDivElement;
 const filterButtons = document.querySelectorAll(".filter-buttons button");
 const searchInput = document.getElementById("search-input") as HTMLInputElement;
@@ -57,6 +70,7 @@ function renderProducts(products: Product[]): void {
         const card = document.createElement("div");
         card.classList.add("product-card");
 
+        // Imagem do card
         const img = document.createElement("img");
         img.src = product.image;
         img.alt = product.name;
@@ -73,6 +87,7 @@ function renderProducts(products: Product[]): void {
         priceLabel.classList.add("price-label");
         priceLabel.textContent = `₦ ${(product.price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
+        // Botão favorito
         const heartBtn = document.createElement("button");
         heartBtn.classList.add("heart-btn");
         heartBtn.addEventListener("click", (e) => {

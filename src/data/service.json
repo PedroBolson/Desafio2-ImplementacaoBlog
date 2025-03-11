@@ -3,27 +3,32 @@
         {
             "id": 1,
             "title": "Grooming",
-            "description": "Serviço de banho e tosa profissional."
+            "description": "Serviço de banho e tosa profissional.",
+            "image": "./src/images/Grooming.png"
         },
         {
             "id": 2,
             "title": "Boarding",
-            "description": "Hotelzinho para o seu pet com todo o conforto."
+            "description": "Hotelzinho para o seu pet com todo o conforto.",
+            "image": "./src/images/Boarding.png"
         },
         {
             "id": 3,
-            "title": "Adoption",
-            "description": "Encontre seu novo amigo de quatro patas."
+            "title": "Veterinary",
+            "description": "Atendimento veterinário especializado.",
+            "image": "./src/images/Veterinary.png"
         },
         {
             "id": 4,
-            "title": "Veterinary",
-            "description": "Atendimento veterinário especializado."
+            "title": "Training",
+            "description": "Treinamento e adestramento para cães de todas as idades.",
+            "image": "./src/images/Training.png"
         },
         {
             "id": 5,
-            "title": "Training",
-            "description": "Treinamento e adestramento para cães de todas as idades."
+            "title": "Adoption",
+            "description": "Encontre seu novo amigo de quatro patas.",
+            "image": "./src/images/Adoption.png"
         }
     ]
 }

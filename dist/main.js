@@ -32,10 +32,12 @@ if (btnShopNow) {
         }
     });
 }
-const backToTop = document.querySelector(".back-to-top");
+const backToTop = document.querySelectorAll(".back-to-top");
 if (backToTop) {
-    backToTop.addEventListener('click', (event) => {
-        event.preventDefault();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+    backToTop.forEach((button) => {
+        button.addEventListener("click", (event) => {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
     });
 }

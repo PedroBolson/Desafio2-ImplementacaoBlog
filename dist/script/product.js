@@ -9,6 +9,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 let allProducts = [];
+const searchWrapper = document.querySelector('.search-wrapper');
+if (searchWrapper) {
+    searchWrapper.addEventListener('click', () => {
+        searchWrapper.classList.toggle('active');
+        const input = searchWrapper.querySelector('.search-input-mobile');
+        if (input && searchWrapper.classList.contains('active')) {
+            input.focus();
+        }
+    });
+}
 const productList = document.getElementById("product-list");
 const filterButtons = document.querySelectorAll(".filter-buttons button");
 const searchInput = document.getElementById("search-input");
