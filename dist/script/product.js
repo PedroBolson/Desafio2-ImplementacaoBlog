@@ -91,9 +91,9 @@ function renderProducts(products) {
             currentQuantity++;
             quantityDisplay.textContent = currentQuantity.toString();
         });
-        quantitySelector.appendChild(minusBtn);
-        quantitySelector.appendChild(quantityDisplay);
         quantitySelector.appendChild(plusBtn);
+        quantitySelector.appendChild(quantityDisplay);
+        quantitySelector.appendChild(minusBtn);
         const addCartBtn = document.createElement("button");
         addCartBtn.classList.add("add-cart-btn");
         addCartBtn.textContent = "Adicionar ao Carrinho";

@@ -115,9 +115,9 @@ function renderProducts(products: Product[]): void {
             quantityDisplay.textContent = currentQuantity.toString();
         });
 
-        quantitySelector.appendChild(minusBtn);
-        quantitySelector.appendChild(quantityDisplay);
         quantitySelector.appendChild(plusBtn);
+        quantitySelector.appendChild(quantityDisplay);
+        quantitySelector.appendChild(minusBtn);
 
         const addCartBtn = document.createElement("button");
         addCartBtn.classList.add("add-cart-btn");
