@@ -8,7 +8,7 @@
             "name": "Multivitamin For Cat",
             "price": 15000.00,
             "quantity": 20,
-            "image": "./src/images/Multivitamin_Cat.svg",
+            "image": "./src/images/Multivitamin_Cat.png",
             "description": "Multivitamínico completo para gatos."
         },
         {
@@ -19,7 +19,7 @@
             "name": "Cat Food",
             "price": 15000.00,
             "quantity": 20,
-            "image": "./src/images/Food_Cat.svg",
+            "image": "./src/images/Food_Cat.png",
             "description": "Ração premium para gatos de todas as idades."
         },
         {
@@ -30,7 +30,7 @@
             "name": "Dog Food",
             "price": 15000.00,
             "quantity": 20,
-            "image": "./src/images/Food_Dog.svg",
+            "image": "./src/images/Food_Dog.png",
             "description": "Alimento balanceado para cães de porte médio."
         },
         {
@@ -42,7 +42,7 @@
             "name": "Pet Plate",
             "price": 15000.00,
             "quantity": 20,
-            "image": "./src/images/Pet_Plate.svg",
+            "image": "./src/images/Pet_Plate.png",
             "description": "Vasilhas resistentes e antiderrapantes para alimentar seu pet."
         },
         {
@@ -53,7 +53,7 @@
             "name": "Bird Water",
             "price": 15000.00,
             "quantity": 20,
-            "image": "./src/images/Water_Bird.svg",
+            "image": "./src/images/Water_Bird.png",
             "description": "Bebedouro automático para pássaros e aves domésticas."
         },
         {
@@ -64,7 +64,7 @@
             "name": "Dog Water",
             "price": 15000.00,
             "quantity": 20,
-            "image": "./src/images/Water_Dog.svg",
+            "image": "./src/images/Water_Dog.png",
             "description": "Fonte de água circulante para cães."
         }
     ]
