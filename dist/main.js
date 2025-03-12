@@ -41,3 +41,13 @@ if (backToTop) {
         });
     });
 }
+const aboutUs = document.querySelector(".about");
+if (aboutUs) {
+    aboutUs.addEventListener('click', (event) => {
+        event.preventDefault();
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+}

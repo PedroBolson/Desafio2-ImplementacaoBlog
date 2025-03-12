@@ -136,7 +136,7 @@ function renderProducts(products: Product[]): void {
 
         const addCartBtn = document.createElement("button");
         addCartBtn.classList.add("add-cart-btn");
-        addCartBtn.textContent = "Adicionar ao Carrinho";
+        addCartBtn.textContent = "Add to cart";
 
         addCartBtn.addEventListener("click", () => {
             if (currentQuantity <= product.quantity) {

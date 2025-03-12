@@ -106,7 +106,7 @@ function renderProducts(products) {
         quantitySelector.appendChild(minusBtn);
         const addCartBtn = document.createElement("button");
         addCartBtn.classList.add("add-cart-btn");
-        addCartBtn.textContent = "Adicionar ao Carrinho";
+        addCartBtn.textContent = "Add to cart";
         addCartBtn.addEventListener("click", () => {
             if (currentQuantity <= product.quantity) {
                 showAlert(`Produto "${product.name}" adicionado ao carrinho! Quantidade: ${currentQuantity}`, "success");
