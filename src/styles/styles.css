@@ -911,7 +911,7 @@ body {
 
 .text-1 {
     padding-top: 6%;
-    border-top: 2px solid rgba(0, 0, 0, .3);
+    border-top: 2px solid rgba(0, 0, 0, .1);
 }
 
 .blog-text h4 {
