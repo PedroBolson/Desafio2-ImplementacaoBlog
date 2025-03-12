@@ -4,25 +4,25 @@
             "id": 1,
             "name": "Dr. Olivia Rhye",
             "position": "Senior Veterinarian",
-            "image": "images/dr-olivia.jpg"
+            "image": "./src/images/dr_olivia.png"
         },
         {
             "id": 2,
             "name": "Phoenix Baker",
             "position": "Asst. Veterinarian",
-            "image": "images/phoenix.jpg"
+            "image": "./src/images/phoenix_baker.png"
         },
         {
             "id": 3,
             "name": "Lana Steiner",
             "position": "Student Veterinarian",
-            "image": "images/luca.jpg"
+            "image": "./src/images/lana_steiner.png"
         },
         {
             "id": 4,
             "name": "Demi Wilkinson",
             "position": "Intern Veterinarian",
-            "image": "images/deryl.jpg"
+            "image": "./src/images/demi_wilkinson.png"
         }
     ]
 }
