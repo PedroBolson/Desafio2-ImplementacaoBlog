@@ -853,6 +853,9 @@ body {
 
     /* Fim do CSS da section hero */
     /* Inicio do CSS da shop */
+    #shop {
+        padding: 1rem;
+    }
 
     #shop h2 {
         font-size: 1.8rem;
