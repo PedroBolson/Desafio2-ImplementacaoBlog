@@ -64,3 +64,16 @@ if (aboutUs) {
         }
     });
 }
+
+//Direcionamento nav para blog
+const blog = document.querySelector('.blog');
+if (blog) {
+    blog.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        const blogSection = document.getElementById('blog');
+        if (blogSection) {
+            blogSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    })
+}

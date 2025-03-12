@@ -45,7 +45,7 @@ function renderTeam(team: Team[]): void {
 
         const img = document.createElement("img");
         img.src = member.image;
-        img.alt = member.name;
+        img.alt = member.name + " photo";
 
         // Nome e posição
         const infoDiv = document.createElement("div");

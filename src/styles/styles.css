@@ -862,6 +862,93 @@ body {
 }
 
 /* Fim do css de team */
+/* Inicio do css do blog */
+
+#blog {
+    background-color: #fff;
+    color: #000;
+    padding: 2rem 1rem;
+}
+
+#blog h2 {
+    font-weight: 500;
+    margin-bottom: 2%;
+    padding-bottom: 0.5%;
+    color: #101828;
+    font-size: 2rem;
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+}
+
+.blog-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.blog-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.blog-text h3 {
+    font-size: 1.85rem;
+    margin-bottom: 1rem;
+    color: #101828;
+    padding-bottom: 6%;
+
+}
+
+.blog-text p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #101828;
+    font-size: 1.1rem;
+}
+
+.text-1 {
+    padding-top: 6%;
+    border-top: 2px solid rgba(0, 0, 0, .3);
+}
+
+.blog-text h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #101828;
+}
+
+.read-more-btn {
+    display: inline-block;
+    background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    transition: transform .3s ease;
+}
+
+.read-more-btn:hover {
+    transform: scale(1.05);
+}
+
+.read-more-btn:active {
+    transform: scale(1);
+}
+
+.blog-image img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Fim do css do blog */
 
 @media screen and (max-width: 935px) {
 
@@ -1137,4 +1224,26 @@ body {
         max-width: 280px;
         object-fit: cover;
     }
+
+    /* Fim do css de team */
+    /* Inicio do css do blog */
+
+    .blog-text h3 {
+        padding-top: 2%;
+        font-size: 1.3rem;
+    }
+
+    .blog-image {
+        display: none;
+    }
+
+    .blog-card {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-list {
+        margin-bottom: 5%;
+    }
+
+    /* Fim do css do blog */
 }

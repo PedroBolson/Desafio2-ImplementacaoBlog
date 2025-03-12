@@ -3,8 +3,10 @@
         {
             "id": 1,
             "title": "Milestone: 20,000 Pets Treated",
-            "image": "images/blog-post1.jpg",
-            "excerpt": "Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet, ipsum molestie aliquet sodales id est ac volutpat. Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet, ipsum molestie aliquet sodales id est ac volutpat."
+            "image": "./src/images/Golden_cPlayer.png",
+            "text1": "Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet, ipsum molestie aliquet sodales id est ac volutpat. Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet, ipsum molestie aliquet sodales id est ac volutpat.",
+            "sub-title": "Renewed target",
+            "text2": "Pharetra morbi libero id aliquam elit massa integer tellus. Quis felis aliquam ullamcorper porttitor. Pulvinar ullamcorper sit dictumst ut eget a, elementum eu. Maecenas est morbi mattis id in ac."
         }
     ]
 }

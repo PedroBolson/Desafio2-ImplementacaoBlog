@@ -39,7 +39,7 @@ function renderTeam(team) {
         card.classList.add("team-card");
         const img = document.createElement("img");
         img.src = member.image;
-        img.alt = member.name;
+        img.alt = member.name + " photo";
         const infoDiv = document.createElement("div");
         infoDiv.classList.add("team-info");
         infoDiv.innerHTML = `
