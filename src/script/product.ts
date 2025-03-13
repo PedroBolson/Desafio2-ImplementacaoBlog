@@ -253,4 +253,3 @@ navShopLinks.forEach(link => {
         }
     });
 });
-

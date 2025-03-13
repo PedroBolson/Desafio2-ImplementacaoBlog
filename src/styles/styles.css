@@ -1037,12 +1037,12 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 0.75rem;
-    font-size: .7rem;
+    font-size: .9rem;
     resize: none;
 }
 
 .contact-form label {
-    font-size: .7rem;
+    font-size: 1rem;
 }
 
 .contact-form input[type="checkbox"] {
@@ -1170,6 +1170,22 @@ body {
 
 .contact-info p a:hover::after {
     width: 100%;
+}
+
+.error-message {
+    opacity: 0;
+    max-height: 0;
+    color: #f44336;
+    font-size: 0.9rem;
+    margin-top: 4px;
+    display: block;
+    transition: opacity .5s ease, max-height .5s ease-in-out;
+}
+
+.error-message.active {
+    opacity: 1;
+    max-height: 100px;
+    display: block;
 }
 
 /* Fim do css de contact */
@@ -1518,7 +1534,16 @@ body {
     .contact-info p {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-        font-size: 0.62rem;
+        font-size: 0.64rem;
+    }
+
+    #contact-form>div.privacy-check>label {
+        font-size: .8rem;
+    }
+
+    #firstNameError,
+    #lastNameError {
+        font-size: .75rem;
     }
 
 }

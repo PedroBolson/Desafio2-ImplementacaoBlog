@@ -265,30 +265,36 @@
 
         <div class="contact-content">
             <!-- Formulário de contato -->
-            <form class="contact-form">
+            <form class="contact-form" id="contact-form" novalidate>
                 <div class="name-fields">
                     <div class="form-group">
-                        <label for="firstName">First name</label>
+                        <label for="firstName">First name*</label>
                         <input type="text" id="firstName" name="firstName" placeholder="First Name" required />
+                        <span class="error-message" id="firstNameError"></span>
                     </div>
 
                     <div class="form-group">
-                        <label for="lastName">Last name</label>
+                        <label for="lastName">Last name*</label>
                         <input type="text" id="lastName" name="lastName" placeholder="Last Name" required />
+                        <span class="error-message" id="lastNameError"></span>
                     </div>
                 </div>
 
-                <label for="email">Email</label>
+                <label for="email">Email*</label>
                 <input type="email" id="email" name="email" placeholder="you@company.com" required />
+                <span class="error-message" id="emailError"></span>
 
-                <label for="message">Message</label>
+                <label for="message">Message*</label>
                 <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                <span class="error-message" id="messageError"></span>
+
                 <div class="privacy-check">
                     <input type="checkbox" id="agreeCheck" required />
                     <label class="agreement" for="agreeCheck">
                         You agree to our friendly <a href="#">privacy policy</a>.
                     </label>
                 </div>
+                <span class="error-message" id="agreeCheckError"></span>
 
                 <button type="submit">Send message</button>
             </form>
@@ -346,6 +352,7 @@
     <script src="./dist/script/service.js"></script>
     <script src="./dist/script/team.js"></script>
     <script src="./dist/script/blog.js"></script>
+    <script src="./dist/script/error.js"></script>
 </body>
 
 </html>
