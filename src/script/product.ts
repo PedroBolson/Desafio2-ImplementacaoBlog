@@ -185,6 +185,7 @@ function filterProducts(category: string): void {
         filteredProducts = allProducts.filter((product) =>
             product.categories.includes(category)
         );
+        filteredProducts = [...filteredProducts].sort(() => 0.5 - Math.random());
     }
 
     const searchTerm = (searchInput.value || searchInputMobile.value).toLowerCase().trim();

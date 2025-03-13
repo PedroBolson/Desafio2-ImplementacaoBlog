@@ -138,6 +138,7 @@ function filterProducts(category) {
     }
     else {
         filteredProducts = allProducts.filter((product) => product.categories.includes(category));
+        filteredProducts = [...filteredProducts].sort(() => 0.5 - Math.random());
     }
     const searchTerm = (searchInput.value || searchInputMobile.value).toLowerCase().trim();
     if (searchTerm !== "") {
