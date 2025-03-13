@@ -61,3 +61,13 @@ if (blog) {
         }
     });
 }
+const contact = document.querySelector('.contact');
+if (contact) {
+    contact.addEventListener('click', (event) => {
+        event.preventDefault();
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+}

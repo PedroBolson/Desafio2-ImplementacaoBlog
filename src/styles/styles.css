@@ -257,18 +257,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 4% .5rem 4%;
     border-bottom: 2px solid rgba(0, 0, 0, .3);
-    padding-bottom: 0.5rem;
     margin-bottom: 2rem;
 }
 
-.shop-tite {
+.shop-title {
     display: flex;
     align-items: center;
     gap: .5rem;
 }
 
-.shop-tite h2 {
+.shop-title h2 {
     margin: 0;
 }
 
@@ -560,6 +560,10 @@ body {
     color: #000;
 }
 
+#service header {
+    padding: 0 4% 0 4%;
+}
+
 #service h2 {
     font-weight: 500;
     margin-bottom: 2%;
@@ -713,6 +717,10 @@ body {
     padding: 2rem 1rem;
 }
 
+#about header {
+    padding: 0 4% 0 4%;
+}
+
 #about h2 {
     font-weight: 500;
     margin-bottom: 2%;
@@ -794,6 +802,10 @@ body {
     padding: 2rem 1rem;
 }
 
+#team header {
+    padding: 0 4% 0 4%;
+}
+
 #team h2 {
     font-weight: 500;
     margin-bottom: 2%;
@@ -868,6 +880,10 @@ body {
     background-color: #fff;
     color: #000;
     padding: 2rem 1rem;
+}
+
+#blog header {
+    padding: 0 4% 0 4%;
 }
 
 #blog h2 {
@@ -949,6 +965,214 @@ body {
 }
 
 /* Fim do css do blog */
+/* Inicio do css de contact */
+
+#contact {
+    background-color: #101828;
+    color: #fff;
+    padding: 4rem 1rem;
+}
+
+#contact header {
+    padding: 0 4% 0 4%;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 1rem;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.contact-form {
+    background: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1 1 0;
+    max-width: 500px;
+    margin-bottom: 5%;
+}
+
+.contact-form ::placeholder {
+    color: #999;
+    font-family: "Formative Trial", "Montserrat";
+}
+
+.name-fields {
+    display: flex;
+    gap: 1rem;
+}
+
+.name-fields label {
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.75rem;
+    font-size: .7rem;
+    resize: none;
+}
+
+.contact-form label {
+    font-size: .7rem;
+}
+
+.contact-form input[type="checkbox"] {
+    /* Remove aparência nativa e define tamanho e formato */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-form input[type="checkbox"]:checked {
+    background-color: #101828;
+    border-color: #101828;
+}
+
+.contact-form input[type="checkbox"]:checked::after {
+    content: "✓";
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#contact>div>form>div.privacy-check>label>a {
+    position: relative;
+    text-decoration: none;
+    color: #101828;
+    font-weight: 600;
+}
+
+#contact>div>form>div.privacy-check>label>a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #101828;
+    transition: width 0.3s ease;
+}
+
+#contact>div>form>div.privacy-check>label>a:hover:after {
+    width: 100%;
+}
+
+.privacy-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-form button {
+    background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: .7rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: transform .3s ease;
+}
+
+.contact-form button:hover {
+    transform: scale(1.1);
+}
+
+.contact-form button:active {
+    transform: scale(1);
+}
+
+.contact-info {
+    background: none;
+    color: #fff;
+    flex: 1 1 0;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 4rem 2rem;
+    /* espaço entre Email/Office e Live chat/Phone */
+    place-items: center;
+    padding-bottom: 5%;
+}
+
+.contact-info p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: .5rem;
+    font-size: .8rem;
+    font-style: normal;
+}
+
+.contact-info p a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info p a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.contact-info p a:hover::after {
+    width: 100%;
+}
+
+/* Fim do css de contact */
 
 @media screen and (max-width: 935px) {
 
@@ -1029,6 +1253,11 @@ body {
     /* Inicio do CSS da shop */
     #shop {
         padding: 1rem;
+    }
+
+    .shop-header {
+        margin: auto;
+        padding-bottom: 2%;
     }
 
     #shop h2 {
@@ -1117,6 +1346,10 @@ body {
         padding: 1rem;
     }
 
+    #service header {
+        padding: 0;
+    }
+
     #service h2 {
         font-size: 1.8rem;
         margin-bottom: 15px;
@@ -1188,6 +1421,10 @@ body {
         font-size: 1.8rem;
     }
 
+    #about header {
+        padding: 0;
+    }
+
     #about .box {
         border: none;
         width: 100%;
@@ -1213,6 +1450,11 @@ body {
 
     /* Fim do css de about us */
     /* Incio do css de team */
+
+    #team header {
+        padding: 0;
+    }
+
     .team-list {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
@@ -1227,6 +1469,10 @@ body {
 
     /* Fim do css de team */
     /* Inicio do css do blog */
+
+    #blog header {
+        padding: 0;
+    }
 
     .blog-text h3 {
         padding-top: 2%;
@@ -1246,4 +1492,33 @@ body {
     }
 
     /* Fim do css do blog */
+    /* Inicio css de contact */
+
+    #contact header {
+        padding: 0;
+    }
+
+    .contact-content {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .contact-info {
+        order: 1;
+        width: 100%;
+        place-items: center;
+        gap: 2rem 1rem;
+    }
+
+    .contact-form {
+        order: 2;
+        width: 100%;
+    }
+
+    .contact-info p {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        font-size: 0.62rem;
+    }
+
 }
