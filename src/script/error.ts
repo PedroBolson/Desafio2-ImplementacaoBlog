@@ -1,4 +1,5 @@
 const contactForm = document.getElementById('contact-form') as HTMLFormElement;
+const newsletterForm = document.getElementById('newsletter-form') as HTMLFormElement;
 
 const firstName = document.getElementById('firstName') as HTMLInputElement;
 const firstNameError = document.getElementById('firstNameError') as HTMLSpanElement;
@@ -8,6 +9,9 @@ const lastNameError = document.getElementById('lastNameError') as HTMLSpanElemen
 
 const email = document.getElementById('email') as HTMLInputElement;
 const emailError = document.getElementById('emailError') as HTMLSpanElement;
+
+const footerEmail = document.getElementById('footer-email') as HTMLInputElement;
+const footerEmailError = document.getElementById('footerEmailError') as HTMLSpanElement;
 
 const message = document.getElementById('message') as HTMLTextAreaElement;
 const messageError = document.getElementById('messageError') as HTMLSpanElement;
@@ -45,17 +49,17 @@ function validateLastName(): boolean {
   return true;
 }
 
-function validateEmail(): boolean {
-  const value = email.value.trim();
+function validateEmail(emailField: HTMLInputElement, errorField: HTMLSpanElement, requiredMsg = 'Email is required.', invalidMsg = 'Please enter a valid email address.'): boolean {
+  const value = emailField.value.trim();
   if (!value) {
-    showError(emailError, 'Email is required.');
+    showError(errorField, requiredMsg);
     return false;
   }
   if (!value.includes('@') || !value.includes('.')) {
-    showError(emailError, 'Please enter a valid email address.');
+    showError(errorField, invalidMsg);
     return false;
   }
-  hideError(emailError);
+  hideError(errorField);
   return true;
 }
 
@@ -83,23 +87,27 @@ function validateAgreeCheck(): boolean {
 }
 
 // Função que valida todo o formulário
-function validateForm(): boolean {
+function validateContactForm(): boolean {
   let isValid = true;
   if (!validateFirstName()) isValid = false;
   if (!validateLastName()) isValid = false;
-  if (!validateEmail()) isValid = false;
+  if (!validateEmail(email, emailError)) isValid = false;
   if (!validateMessage()) isValid = false;
   if (!validateAgreeCheck()) isValid = false;
   return isValid;
 }
 
+function validateNewsletterForm(): boolean {
+  return validateEmail(footerEmail, footerEmailError);
+}
+
 // Envio do formulário
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
-  if (validateForm()) {
+  if (validateContactForm()) {
     const alertBox = document.createElement("div");
     alertBox.classList.add("alert", "success");
-    alertBox.textContent = 'Forumulário válido! Enviando...';
+    alertBox.textContent = 'Formulário de contato válido! Enviando mensagem...';
     document.body.appendChild(alertBox);
 
     setTimeout(() => {
@@ -109,9 +117,25 @@ contactForm.addEventListener('submit', (event) => {
   }
 });
 
+newsletterForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (validateNewsletterForm()) {
+    const alertBox = document.createElement("div");
+    alertBox.classList.add("alert", "success");
+    alertBox.textContent = 'Email válido! Enviando inscrição...';
+    document.body.appendChild(alertBox);
+
+    setTimeout(() => {
+      alertBox.remove();
+      newsletterForm.reset();
+    }, 3000);
+  }
+});
+
 // Validação em tempo real
 firstName.addEventListener('input', validateFirstName);
 lastName.addEventListener('input', validateLastName);
-email.addEventListener('input', validateEmail);
+email.addEventListener('input', () => validateEmail(email, emailError));
+footerEmail.addEventListener('input', () => validateEmail(footerEmail, footerEmailError));
 message.addEventListener('input', validateMessage);
 agreeCheck.addEventListener('change', validateAgreeCheck);
