@@ -172,21 +172,21 @@ ProjectPetShop/
 ```
 ## Instalação e Configuração
 
-1. **Clone o repositório:**
+1. **Clone o repositório:**  
    git clone https://github.com/PedroBolson/Desafio2-ImplementacaoBlog.git
 
-2. **Navegue até a pasta do projeto:**
+2. **Navegue até a pasta do projeto:**  
    cd ProjectPetShop
 
-3. **Instale as dependências:**
+3. **Instale as dependências:**  
    npm install
 
 4. **Compile o projeto:**
-   Execute o comando abaixo para que o Webpack faça o bundle dos arquivos TypeScript e gere o arquivo único em dist/main.js:
-   
+   Execute o comando abaixo para que o Webpack faça o bundle dos arquivos TypeScript e gere o arquivo único em dist/main.js:  
+     
    npm run build
 
-5. **Abra o projeto:**
+5. **Abra o projeto:**  
    Abra o arquivo index.html no seu navegador ou utilize um servidor local (como o Live Server) para visualizar a aplicação.
 
 ## Desenvolvimento
@@ -206,7 +206,7 @@ ProjectPetShop/
 No arquivo package.json, você encontrará scripts para renderizar os scripts necessários para a interatividade da página:
 
 - **Build:**
-npm run build
+npm run build  
 Gera o bundle final em modo produção (ou modo desenvolvimento se configurado).
 
 ## Autor
