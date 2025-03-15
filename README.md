@@ -6,9 +6,25 @@ serviços, equipe e formulários de contato e newsletter, utilizando dados em fo
 
 ## Tecnologias Utilizadas
 
-- ![HTML5](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
-- ![CSS3](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
-- ![TypeScript](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg)
+<p>
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+    alt="HTML5 logo" 
+    width="80px" 
+    style="margin-right: 10px;"
+  />
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" 
+    alt="CSS3 logo" 
+    width="80px" 
+    style="margin-right: 10px;"
+  />
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" 
+    alt="TypeScript logo" 
+    width="80px"
+  />
+</p>
 - Webpack para bundling
 - JSON para carregamento dos dados dinâmicos
 
