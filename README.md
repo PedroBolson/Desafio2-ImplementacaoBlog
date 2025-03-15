@@ -25,8 +25,9 @@ serviços, equipe e formulários de contato e newsletter, utilizando dados em fo
     width="80px"
   />
 </p>
-<br/>
+<p>
 - Webpack para bundling
+</p>
 - JSON para carregamento dos dados dinâmicos
 
 ## Funcionalidades
