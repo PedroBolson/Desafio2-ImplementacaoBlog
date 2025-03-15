@@ -29,7 +29,7 @@ ProjectPetShop/
 ├── dist/                   # Bundle gerado (arquivo(s) compilado(s) - ignorados no Git)
 ├── src/
 │   ├── data/               # Arquivos JSON (blog.json, product.json, service.json, team.json)
-│   ├── images              # Arquivos png dos produtos
+│   ├── images/             # Arquivos png dos produtos
 │   ├── scripts/            # Código TypeScript (blog.ts, error.ts, nav.ts, product.ts, service.ts, shop.ts, team.ts)
 │   ├── styles/             # Arquivos CSS       
 │   └── main.ts             # Código TypeScript para utilizar Webpack e converter para JavaScript
