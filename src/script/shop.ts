@@ -43,8 +43,21 @@ async function loadProduct(): Promise<void> {
     }
 }
 
+function updateFilterTitle(): void {
+    const titleElement = document.getElementById("filter-title");
+    if (!titleElement) return;
+
+    if (activeFilter === "all") {
+        titleElement.textContent = "All products";
+    } else {
+        titleElement.textContent = `${activeFilter.charAt(0).toUpperCase() + activeFilter.slice(1)} products`;
+    }
+}
+
+
 // Filtrar produtos por categoria e busca
 function filterAndRenderProducts(): void {
+    updateFilterTitle();
     const filteredProducts = allProducts1.filter((product) => {
         const matchesCategory = activeFilter === "all" || product.categories.includes(activeFilter);
         const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase());

@@ -35,7 +35,19 @@ function loadProduct() {
         }
     });
 }
+function updateFilterTitle() {
+    const titleElement = document.getElementById("filter-title");
+    if (!titleElement)
+        return;
+    if (activeFilter === "all") {
+        titleElement.textContent = "All products";
+    }
+    else {
+        titleElement.textContent = `${activeFilter.charAt(0).toUpperCase() + activeFilter.slice(1)} products`;
+    }
+}
 function filterAndRenderProducts() {
+    updateFilterTitle();
     const filteredProducts = allProducts1.filter((product) => {
         const matchesCategory = activeFilter === "all" || product.categories.includes(activeFilter);
         const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase());

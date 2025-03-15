@@ -52,7 +52,7 @@
             ],
             "name": "Bird Water",
             "price": 15000.00,
-            "quantity": 20,
+            "quantity": 10,
             "image": "./src/images/Water_Bird.png",
             "description": "Bebedouro automático para pássaros e aves domésticas."
         },
@@ -66,6 +66,270 @@
             "quantity": 20,
             "image": "./src/images/Water_Dog.png",
             "description": "Fonte de água circulante para cães."
+        },
+        {
+            "id": 7,
+            "categories": [
+                "dog"
+            ],
+            "name": "Dog Bed",
+            "price": 20000.00,
+            "quantity": 15,
+            "image": "./src/images/Dog_Bed.png",
+            "description": "Cama em forma de cesto para cães."
+        },
+        {
+            "id": 8,
+            "categories": [
+                "dog"
+            ],
+            "name": "Dog Toy",
+            "price": 9000.00,
+            "quantity": 15,
+            "image": "./src/images/Dog_Toy.png",
+            "description": "Brinquedo para cães."
+        },
+        {
+            "id": 10,
+            "categories": [
+                "dog"
+            ],
+            "name": "Soft Dog Bed",
+            "price": 30000.00,
+            "quantity": 15,
+            "image": "./src/images/Soft_Dog_Bed.png",
+            "description": "Cama extra macia em forma de cesto para cães."
+        },
+        {
+            "id": 11,
+            "categories": [
+                "dog"
+            ],
+            "name": "Rawhide Chews",
+            "price": 7500.00,
+            "quantity": 15,
+            "image": "./src/images/Rawhide_Chews.png",
+            "description": "Osso de couro para cães."
+        },
+        {
+            "id": 12,
+            "categories": [
+                "dog"
+            ],
+            "name": "Rubber Chew Toy",
+            "price": 7500.00,
+            "quantity": 15,
+            "image": "./src/images/Rubber_Chew_Toys.png",
+            "description": "Osso de borracha para cães (mordedor)."
+        },
+        {
+            "id": 13,
+            "categories": [
+                "cat"
+            ],
+            "name": "Litter Box",
+            "price": 23500.00,
+            "quantity": 15,
+            "image": "./src/images/Litter_Box.png",
+            "description": "Caixa de areia para gatos."
+        },
+        {
+            "id": 14,
+            "categories": [
+                "cat"
+            ],
+            "name": "Litter Scoop",
+            "price": 6500.00,
+            "quantity": 15,
+            "image": "./src/images/Litter_Scoop.png",
+            "description": "Pá para limpar a caixa de areia para gatos."
+        },
+        {
+            "id": 15,
+            "categories": [
+                "cat"
+            ],
+            "name": "Cat Toy",
+            "price": 6500.00,
+            "quantity": 15,
+            "image": "./src/images/Cat_Toy.png",
+            "description": "Brinquedo para gatos."
+        },
+        {
+            "id": 16,
+            "categories": [
+                "cat"
+            ],
+            "name": "Cat Tower",
+            "price": 56500.00,
+            "quantity": 15,
+            "image": "./src/images/Cat_Tower.png",
+            "description": "Torre de brinquedo para gatos."
+        },
+        {
+            "id": 17,
+            "categories": [
+                "cat"
+            ],
+            "name": "Dual-sided brush",
+            "price": 11500.00,
+            "quantity": 15,
+            "image": "./src/images/Dual_Sided_Brush.png",
+            "description": "Escova para remover subpelos de gatos."
+        },
+        {
+            "id": 18,
+            "categories": [
+                "bird"
+            ],
+            "name": "Bird Cage",
+            "price": 41500.00,
+            "quantity": 15,
+            "image": "./src/images/Birdcage.png",
+            "description": "Gaiola para pássaros."
+        },
+        {
+            "id": 19,
+            "categories": [
+                "bird"
+            ],
+            "name": "Large Bird Cage",
+            "price": 81500.00,
+            "quantity": 15,
+            "image": "./src/images/Birdcage_Large.png",
+            "description": "Gaiola grande para pássaros."
+        },
+        {
+            "id": 20,
+            "categories": [
+                "bird"
+            ],
+            "name": "Food Dispenser",
+            "price": 8500.00,
+            "quantity": 15,
+            "image": "./src/images/Bird_Food_Dispenser.png",
+            "description": "Dispenser de comida para pássaros."
+        },
+        {
+            "id": 21,
+            "categories": [
+                "bird"
+            ],
+            "name": "Bird Swing",
+            "price": 8500.00,
+            "quantity": 15,
+            "image": "./src/images/Bird_Swing.png",
+            "description": "Balanço de gaiola para pássaros."
+        },
+        {
+            "id": 22,
+            "categories": [
+                "bird"
+            ],
+            "name": "Bird Swing Ring",
+            "price": 10500.00,
+            "quantity": 15,
+            "image": "./src/images/Bird_Swing_Ring.png",
+            "description": "Balanço circular de gaiola com sino para pássaros."
+        },
+        {
+            "id": 23,
+            "categories": [
+                "bird"
+            ],
+            "name": "Bird House",
+            "price": 80500.00,
+            "quantity": 15,
+            "image": "./src/images/Bird_House.png",
+            "description": "Casinha de madeira para pássaros."
+        },
+        {
+            "id": 24,
+            "categories": [
+                "bird"
+            ],
+            "name": "Bird Toy",
+            "price": 9500.00,
+            "quantity": 15,
+            "image": "./src/images/Bird_Toy.png",
+            "description": "Brinquedo para pássaros."
+        },
+        {
+            "id": 25,
+            "categories": [
+                "fish"
+            ],
+            "name": "Home Aquarium",
+            "price": 100500.00,
+            "quantity": 15,
+            "image": "./src/images/Home_Aquarium.png",
+            "description": "Aquário grande para peixes."
+        },
+        {
+            "id": 26,
+            "categories": [
+                "fish"
+            ],
+            "name": "Small Home Aquarium",
+            "price": 70500.00,
+            "quantity": 15,
+            "image": "./src/images/Small_Home_Aquarium.png",
+            "description": "Aquário pequeno para peixes."
+        },
+        {
+            "id": 27,
+            "categories": [
+                "fish"
+            ],
+            "name": "Aquarium Decoration",
+            "price": 5500.00,
+            "quantity": 15,
+            "image": "./src/images/Aquarium_Decoration1.png",
+            "description": "Decoração para aquário."
+        },
+        {
+            "id": 28,
+            "categories": [
+                "fish"
+            ],
+            "name": "Aquarium Decoration",
+            "price": 5700.00,
+            "quantity": 15,
+            "image": "./src/images/Aquarium_Decoration2.png",
+            "description": "Decoração para aquário."
+        },
+        {
+            "id": 29,
+            "categories": [
+                "fish"
+            ],
+            "name": "Aquarium Decoration",
+            "price": 5200.00,
+            "quantity": 15,
+            "image": "./src/images/Aquarium_Decoration3.png",
+            "description": "Decoração para aquário."
+        },
+        {
+            "id": 30,
+            "categories": [
+                "fish"
+            ],
+            "name": "Aquarium Decoration",
+            "price": 5200.00,
+            "quantity": 15,
+            "image": "./src/images/Aquarium_Decoration4.png",
+            "description": "Decoração para aquário."
+        },
+        {
+            "id": 31,
+            "categories": [
+                "fish"
+            ],
+            "name": "Aquarium Decoration",
+            "price": 6000.00,
+            "quantity": 15,
+            "image": "./src/images/Aquarium_Decoration5.png",
+            "description": "Decoração para aquário."
         }
     ]
 }
