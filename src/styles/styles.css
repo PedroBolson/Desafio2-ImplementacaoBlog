@@ -1,3 +1,23 @@
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-light-gray: #F4F4F4;
+    --color-gray: #ccc;
+    --color-dark-blue: rgba(0, 48, 94);
+    --color-heading: #101828;
+    --color-gradient-start: #101828;
+    --color-gradient-end: #233250;
+    --border-color: rgba(0, 0, 0, 0.3);
+    --dropdown-text: #eeeeee;
+    --hover-bg: rgba(255, 255, 255, 0.2);
+    --btn-get-started-hover-bg: rgba(255, 255, 255, 0.6);
+    --contact-border: rgba(255, 255, 255, 0.3);
+    --footer-divider: #2D3748;
+    --footer-icon-color: #CECECE;
+    --footer-icon-hover: #1D4ED8;
+    --color-heading-opacity: #10182880;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +31,8 @@ button {
 
 body {
     font-family: "Formative Trial", "Montserrat";
-    background-color: #000;
-    color: #fff;
+    background-color: var(--color-black);
+    color: var(--color-white);
 }
 
 /* Inicio do css da section hero */
@@ -95,7 +115,7 @@ body {
 
 .nav-links a {
     font-size: 1.2rem;
-    color: #fff;
+    color: var(--color-white);
     text-decoration: none;
     padding: .5em .5rem;
     transition: opacity .3s ease;
@@ -115,7 +135,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background: rgba(0, 48, 94);
+    background: var(--color-dark-blue);
     box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
     list-style: none;
     padding: .5rem .9rem;
@@ -136,19 +156,19 @@ body {
 .dropdown-content li a {
     display: block;
     padding: .4rem 0;
-    color: #eeeeee;
+    color: var(--dropdown-text);
     white-space: nowrap;
 }
 
 .nav-links li a:hover,
 .dropdown-content li a:hover {
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, .2);
+    background-color: var(--hover-bg);
 }
 
 .btn-get-started {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: var(--color-white);
+    color: var(--color-black);
     border: none;
     padding: .5rem 1.2rem;
     font-size: 1.5rem;
@@ -158,7 +178,7 @@ body {
 }
 
 .btn-get-started:hover {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: var(--btn-get-started-hover-bg);
     transform: translateY(-1px);
 }
 
@@ -217,8 +237,8 @@ body {
     justify-content: center;
     background-color: transparent;
     border-radius: 50px;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
     padding: 1.2rem 1.6rem;
     font-size: 1.5rem;
     cursor: pointer;
@@ -235,7 +255,7 @@ body {
 }
 
 .btn-shop-now:hover {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: var(--hover-bg);
     transform: translateY(-1px);
 }
 
@@ -248,13 +268,13 @@ body {
 #shop {
     align-items: center;
     padding: 2rem;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 #shop h2 {
     font-weight: 500;
-    color: #101828;
+    color: var(--color-heading);
     font-size: 2rem;
 }
 
@@ -263,7 +283,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 0 4% .5rem 4%;
-    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    border-bottom: 2px solid var(--border-color);
     margin-bottom: 2rem;
 }
 
@@ -282,7 +302,7 @@ body {
 }
 
 .products {
-    border: 2px solid rgba(0, 0, 0, .3);
+    border: 2px solid var(--border-color);
     width: 90%;
     margin: auto;
 
@@ -307,7 +327,7 @@ body {
 .search-container input[type="text"] {
     border: none;
     outline: none;
-    background: #F4F4F4;
+    background: var(--color-light-gray);
     margin-left: .5rem;
     font-size: 18px;
 }
@@ -316,8 +336,8 @@ body {
     margin: 3%;
     display: flex;
     align-items: center;
-    background: #F4F4F4;
-    border: 1px solid #ccc;
+    background: var(--color-light-gray);
+    border: 1px solid var(--color-gray);
     border-radius: 20px;
     padding: .5rem .8rem;
 }
@@ -331,7 +351,7 @@ body {
 .filter-buttons .filter-btn {
     font-size: 1rem;
     background-color: transparent;
-    color: #000;
+    color: var(--color-black);
     border: none;
     padding: .5rem 1rem;
     margin: 0 .3rem;
@@ -342,8 +362,8 @@ body {
 
 .filter-buttons .filter-btn:hover,
 .filter-btn.active {
-    background: linear-gradient(90deg, #101828 5%, #233250 95%);
-    color: #fff;
+    background: linear-gradient(90deg, var(--color-gradient-start) 5%, var(--color-gradient-end) 95%);
+    color: var(--color-white);
 }
 
 #product-list {
@@ -358,7 +378,7 @@ body {
 .product-card {
     aspect-ratio: 1/1;
     position: relative;
-    color: #000;
+    color: var(--color-black);
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
@@ -398,7 +418,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    color: #fff;
+    color: var(--color-white);
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -449,7 +469,7 @@ body {
 }
 
 .button-container {
-    margin-top: 14%;
+    margin-top: 15%;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -458,7 +478,7 @@ body {
 .quantity-selector {
     display: inline-flex;
     align-items: center;
-    background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+    background: linear-gradient(86.93deg, var(--color-gradient-start) 0.18%, var(--color-gradient-end) 99.39%);
     border-radius: 7px;
 }
 
@@ -466,7 +486,7 @@ body {
     width: 32px;
     height: 32px;
     border: none;
-    color: #fff;
+    color: var(--color-white);
     font-size: 1rem;
     cursor: pointer;
     margin: 0 5px;
@@ -492,14 +512,14 @@ body {
 
 .add-cart-btn {
     display: inline-block;
-    color: #ffffff;
+    color: var(--color-white);
     border: none;
     padding: .5rem 1.2rem;
     border-radius: 7px;
     cursor: pointer;
     font-weight: 400;
     transition: transform .5s ease;
-    background: linear-gradient(86.93deg, #101828 .18%, #233250 99.39%);
+    background: linear-gradient(86.93deg, var(--color-gradient-start) 0.18%, var(--color-gradient-end) 99.39%);
 }
 
 .add-cart-btn:hover {
@@ -525,18 +545,18 @@ body {
 
 .alert.success {
     background-color: #4CAF50;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .alert.warning {
     background-color: #FF9800;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .back-to-top {
     cursor: pointer;
     background-color: #555;
-    color: #fff;
+    color: var(--color-white);
     padding: .5rem .8rem;
     border-radius: 20px;
     text-decoration: none;
@@ -556,7 +576,7 @@ body {
 .btn-shop-page {
     display: inline-block;
     position: relative;
-    color: #101828;
+    color: var(--color-heading);
     padding: 0.75rem 1.25rem;
     text-decoration: none;
     font-weight: 600;
@@ -570,7 +590,7 @@ body {
     bottom: 0;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: var(--color-white);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease, background-color 0.3s ease, transform 3s ease;
@@ -582,8 +602,8 @@ body {
     }
 
     .btn-shop-page:hover {
-        color: #fff;
-        background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+        color: var(--color-white);
+        background: linear-gradient(86.93deg, var(--color-gradient-start) 0.18%, var(--color-gradient-end) 99.39%);
         transform: scale(1.05);
     }
 }
@@ -593,8 +613,8 @@ body {
 #service {
     align-items: center;
     padding: 2rem;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 #service header {
@@ -605,9 +625,9 @@ body {
     font-weight: 500;
     margin-bottom: 2%;
     padding-bottom: .5%;
-    color: #101828;
+    color: var(--color-heading);
     font-size: 2rem;
-    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    border-bottom: 2px solid var(--border-color);
 }
 
 .services {
@@ -620,7 +640,7 @@ body {
 .box {
     margin: 0 auto;
     width: 90%;
-    border: 2px solid rgba(0, 0, 0, .3);
+    border: 2px solid var(--border-color);
 }
 
 /* Grid 3 col x 2 row */
@@ -672,7 +692,7 @@ body {
 /* Cards gerais*/
 .service-card {
     position: relative;
-    color: #000;
+    color: var(--color-black);
     border: none;
     border-radius: 10px;
     overflow: hidden;
@@ -709,7 +729,7 @@ body {
     font-size: 2.5rem;
     text-align: center;
     font-weight: 700;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .service-overlay p,
@@ -724,13 +744,13 @@ body {
 .service-card.active .service-overlay p,
 .service-card.active .service-overlay .learn-more-btn {
     display: block;
-    color: #fff;
+    color: var(--color-white);
     margin-bottom: .8rem;
 }
 
 /* Botão interno Learn More */
 .learn-more-btn {
-    background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+    background: linear-gradient(86.93deg, var(--color-gradient-start) 0.18%, var(--color-gradient-end) 99.39%);
     border: none;
     border-radius: 5px;
     padding: .5rem 1rem;
@@ -749,8 +769,8 @@ body {
 /* Inicio do css de about us */
 
 #about {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-white);
+    color: var(--color-black);
     padding: 2rem 1rem;
 }
 
@@ -762,16 +782,16 @@ body {
     font-weight: 500;
     margin-bottom: 2%;
     padding-bottom: 0.5%;
-    color: #101828;
+    color: var(--color-heading);
     font-size: 2rem;
-    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    border-bottom: 2px solid var(--border-color);
 }
 
 #about .box {
     width: 88%;
     margin: 2rem auto;
     padding: 2rem;
-    border: 2px solid rgba(0, 0, 0, .3);
+    border: 2px solid var(--border-color);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -812,14 +832,14 @@ body {
 
 /* Imagem menor sobreposta */
 .small-wrapper {
-    background-color: #fff;
+    background-color: var(--color-white);
     position: absolute;
     width: 45%;
     bottom: 0;
     left: 0;
     transform: translate(-20%, 27%);
     z-index: 1;
-    border: 16px solid #fff;
+    border: 16px solid var(--color-white);
     border-radius: 15px;
     overflow: visible;
 }
@@ -833,8 +853,8 @@ body {
 /* Fim do css de about us */
 /* Inicio do css de team */
 #team {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-white);
+    color: var(--color-black);
     padding: 2rem 1rem;
 }
 
@@ -846,9 +866,9 @@ body {
     font-weight: 500;
     margin-bottom: 2%;
     padding-bottom: 0.5%;
-    color: #101828;
+    color: var(--color-heading);
     font-size: 2rem;
-    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    border-bottom: 2px solid var(--border-color);
 }
 
 .team-list {
@@ -886,7 +906,7 @@ body {
 
 .team-info p {
     font-size: .875rem;
-    color: #10182880;
+    color: var(--color-heading-opacity);
 }
 
 .team-social {
@@ -913,8 +933,8 @@ body {
 /* Inicio do css do blog */
 
 #blog {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-white);
+    color: var(--color-black);
     padding: 2rem 1rem;
 }
 
@@ -926,9 +946,9 @@ body {
     font-weight: 500;
     margin-bottom: 2%;
     padding-bottom: 0.5%;
-    color: #101828;
+    color: var(--color-heading);
     font-size: 2rem;
-    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    border-bottom: 2px solid var(--border-color);
 }
 
 .blog-list {
@@ -949,15 +969,14 @@ body {
 .blog-text h3 {
     font-size: 1.85rem;
     margin-bottom: 1rem;
-    color: #101828;
+    color: var(--color-heading);
     padding-bottom: 6%;
-
 }
 
 .blog-text p {
     margin-bottom: 1rem;
     line-height: 1.6;
-    color: #101828;
+    color: var(--color-heading);
     font-size: 1.1rem;
 }
 
@@ -969,13 +988,13 @@ body {
 .blog-text h4 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
-    color: #101828;
+    color: var(--color-heading);
 }
 
 .read-more-btn {
     display: inline-block;
-    background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
-    color: #fff;
+    background: linear-gradient(86.93deg, var(--color-gradient-start) 0.18%, var(--color-gradient-end) 99.39%);
+    color: var(--color-white);
     padding: 0.75rem 1.25rem;
     text-decoration: none;
     border-radius: 4px;
@@ -1001,11 +1020,11 @@ body {
 }
 
 /* Fim do css do blog */
-/* Inicio do css de contact */
+/* Inicio do css do contact */
 
 #contact {
-    background-color: #101828;
-    color: #fff;
+    background-color: var(--color-heading);
+    color: var(--color-white);
     padding: 4rem 1rem;
 }
 
@@ -1019,7 +1038,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid var(--contact-border);
     padding-bottom: 1rem;
 }
 
@@ -1035,8 +1054,8 @@ body {
 }
 
 .contact-form {
-    background: #fff;
-    color: #000;
+    background: var(--color-white);
+    color: var(--color-black);
     border-radius: 8px;
     padding: 2rem;
     display: flex;
@@ -1070,7 +1089,7 @@ body {
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-gray);
     border-radius: 4px;
     padding: 0.75rem;
     font-size: .9rem;
@@ -1088,21 +1107,21 @@ body {
     appearance: none;
     width: 20px;
     height: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid var(--color-gray);
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--color-white);
     cursor: pointer;
     position: relative;
 }
 
 .contact-form input[type="checkbox"]:checked {
-    background-color: #101828;
-    border-color: #101828;
+    background-color: var(--color-heading);
+    border-color: var(--color-heading);
 }
 
 .contact-form input[type="checkbox"]:checked::after {
     content: "✓";
-    color: #fff;
+    color: var(--color-white);
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -1118,7 +1137,7 @@ body {
 #contact>div>form>div.privacy-check>label>a {
     position: relative;
     text-decoration: none;
-    color: #101828;
+    color: var(--color-heading);
     font-weight: 700;
 }
 
@@ -1129,7 +1148,7 @@ body {
     bottom: 0;
     height: 2px;
     width: 0;
-    background-color: #101828;
+    background-color: var(--color-heading);
     transition: width 0.3s ease;
 }
 
@@ -1145,8 +1164,8 @@ body {
 }
 
 .contact-form button {
-    background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
-    color: #fff;
+    background: linear-gradient(86.93deg, var(--color-gradient-start) 0.18%, var(--color-gradient-end) 99.39%);
+    color: var(--color-white);
     padding: 0.75rem 1.5rem;
     font-size: .7rem;
     border: none;
@@ -1166,7 +1185,7 @@ body {
 
 .contact-info {
     background: none;
-    color: #fff;
+    color: var(--color-white);
     flex: 1 1 0;
     max-width: 500px;
     display: grid;
@@ -1190,7 +1209,7 @@ body {
 .contact-info p a {
     position: relative;
     text-decoration: none;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .contact-info p a::after {
@@ -1200,7 +1219,7 @@ body {
     bottom: 0;
     height: 2px;
     width: 0;
-    background-color: #fff;
+    background-color: var(--color-white);
     transition: width 0.3s ease;
 }
 
@@ -1227,11 +1246,11 @@ body {
 /* Fim do css de contact */
 /* Inicio do css do footer */
 footer {
-    background-color: #101828;
+    background-color: var(--color-heading);
 }
 
 footer a {
-    color: #fff;
+    color: var(--color-white);
     text-decoration: none;
 }
 
@@ -1242,7 +1261,7 @@ footer a:hover {
 .divisor-sections-footer {
     width: 100%;
     height: 2px;
-    background-color: #2D3748;
+    background-color: var(--footer-divider);
     border: none;
     margin: 0;
 }
@@ -1250,7 +1269,7 @@ footer a:hover {
 .divisor-mid-lower {
     width: 90%;
     height: 1px;
-    background-color: #2D3748;
+    background-color: var(--footer-divider);
     border: none;
     margin: 1.5rem auto;
 }
@@ -1303,8 +1322,8 @@ footer a:hover {
 
 .newsletter-form button {
     padding: 0.7rem 1rem;
-    background-color: #fff;
-    color: #101828;
+    background-color: var(--color-white);
+    color: var(--color-heading);
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -1390,12 +1409,12 @@ footer a:hover {
 }
 
 .lower-links svg path {
-    fill: #CECECE;
+    fill: var(--footer-icon-color);
     transition: fill 0.3s ease;
 }
 
 .lower-links svg:hover path {
-    fill: #1D4ED8;
+    fill: var(--footer-icon-hover);
 }
 
 /* Fim do css do footer */
@@ -1420,8 +1439,8 @@ footer a:hover {
     .nav-links {
         display: flex;
         flex-direction: column;
-        background-color: rgba(0, 48, 94);
-        color: #ffffff;
+        background-color: var(--color-dark-blue);
+        color: var(--color-white);
         position: absolute;
         top: 60px;
         right: 10px;
@@ -1538,7 +1557,7 @@ footer a:hover {
         transition: width .3s ease, opacity .3s ease;
         box-sizing: border-box;
         padding: 0.5rem;
-        border: 1px solid #ccc;
+        border: 1px solid var(--color-black);
         border-radius: 20px;
     }
 
