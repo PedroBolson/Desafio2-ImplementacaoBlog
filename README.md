@@ -194,7 +194,7 @@ ProjectPetShop/
 ## Desenvolvimento
 
 - TypeScript e Webpack:  
-  O projeto utiliza o Webpack com o ts-loader para compilar e agrupar os arquivos TypeScript. 
+  O projeto utiliza o Webpack com o ts-loader para compilar e agrupar os arquivos TypeScript.   
   O ponto de entrada é `src/main.ts`, que importa os demais módulos (blog, produtos, serviços, equipe e validações).
 
 - CSS e Responsividade:  
