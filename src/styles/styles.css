@@ -708,6 +708,7 @@ body {
     transition: transform .3s ease;
 }
 
+.service-card:hover img,
 .service-card.active img {
     transform: scale(1.05);
 }
@@ -737,10 +738,13 @@ body {
     display: none;
 }
 
+.service-card:hover .service-overlay,
 .service-card.active .service-overlay {
     background: rgba(16, 24, 40, .54);
 }
 
+.service-card:hover .service-overlay p,
+.service-card:hover .service-overlay .learn-more-btn,
 .service-card.active .service-overlay p,
 .service-card.active .service-overlay .learn-more-btn {
     display: block;

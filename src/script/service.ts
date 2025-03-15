@@ -47,7 +47,8 @@ function renderServices(services: Service[]): void {
         serviceButton.appendChild(img);
         serviceButton.appendChild(overlayDiv);
 
-        serviceButton.addEventListener("click", () => {
+        serviceButton.addEventListener("click", (event) => {
+            event.stopPropagation();
             const allButtons = document.querySelectorAll(".service-card");
             allButtons.forEach((btn) => btn.classList.remove("active"));
             serviceButton.classList.add("active");
@@ -87,3 +88,14 @@ navServiceLinks.forEach((link) => {
     });
 });
 
+// Listener global para remover o active ao clicar fora de um card
+document.addEventListener("click", (event) => {
+    if (
+        !(event.target as HTMLElement).closest(".service-card") &&
+        !(event.target as HTMLElement).closest(".drop-service")
+    ) {
+        document.querySelectorAll(".service-card").forEach((btn) => {
+            btn.classList.remove("active");
+        });
+    }
+});
