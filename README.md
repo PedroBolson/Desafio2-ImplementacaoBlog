@@ -66,27 +66,22 @@ ProjectPetShop/
 ### Installation and Setup
 
 1. **Clone the repository:**
-``` bash
-   git clone https://github.com/PedroBolson/Desafio2-ImplementacaoBlog.git
+   `git clone https://github.com/PedroBolson/Desafio2-ImplementacaoBlog.git`
 
 
 2. **Navigate to the project folder:**
-``` bash
-   cd ProjectPetShop
+   `cd ProjectPetShop`
 
 3. **Install dependencies:**
-``` bash
-   npm install
+   `npm install`
 
 4. **Compile the project:**
-``` bash
-   Run the command below for Webpack to bundle the TypeScript files and generate the single file in `dist/main.js`:
-
-   npm run build
+   `Run the command below for Webpack to bundle the TypeScript files and generate the single file in `dist/main.js`:
+`
+   `npm run build`
 
 5. **Open the project:**
-``` bash
-   Open the `index.html` file in your browser or use a local server (such as Live Server) to view the application.
+   `Open the `index.html` file in your browser or use a local server (such as Live Server) to view the application.`
 
 ### Development
 
@@ -104,8 +99,7 @@ Dynamic content (blog posts, products, services, team) is loaded from JSON files
 In the `package.json` file, you will find scripts to build and manage the necessary files for the page's interactivity:
 
 - **Build:**
-``` bash
-      npm run build
+      `npm run build`<br>
 Generates the final bundle in production mode (or in development mode if configured).
 
 ### Author
@@ -179,25 +173,20 @@ ProjectPetShop/
 ## Instalação e Configuração
 
 1. **Clone o repositório:**
-``` bash
    git clone https://github.com/PedroBolson/Desafio2-ImplementacaoBlog.git
 
 2. **Navegue até a pasta do projeto:**
-``` bash
    cd ProjectPetShop
 
 3. **Instale as dependências:**
-``` bash
    npm install
 
 4. **Compile o projeto:**
-``` bash
    Execute o comando abaixo para que o Webpack faça o bundle dos arquivos TypeScript e gere o arquivo único em dist/main.js:
    
    npm run build
 
 5. **Abra o projeto:**
-``` bash
    Abra o arquivo index.html no seu navegador ou utilize um servidor local (como o Live Server) para visualizar a aplicação.
 
 ## Desenvolvimento
@@ -217,7 +206,6 @@ ProjectPetShop/
 No arquivo package.json, você encontrará scripts para renderizar os scripts necessários para a interatividade da página:
 
 - **Build:**
-``` bash
 npm run build
 Gera o bundle final em modo produção (ou modo desenvolvimento se configurado).
 
