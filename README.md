@@ -76,20 +76,22 @@ ProjectPetShop/
    `npm install`
 
 4. **Compile the project:**  
-   `Run the command below for Webpack to bundle the TypeScript files and generate the single file in `dist/main.js`:
-`
+   Run the command below for Webpack to bundle the TypeScript files and generate the single file in `dist/main.js:
+
    `npm run build`
 
 5. **Open the project:**  
-   `Open the `index.html` file in your browser or use a local server (such as Live Server) to view the application.`
+   Open the `index.html` file in your browser or use a local server (such as Live Server) to view the application.
 
 ### Development
 
 - **TypeScript and Webpack:**  
-The project uses Webpack with ts-loader to compile and bundle the TypeScript files. The entry point is `src/main.ts`, which imports other modules (blog, products, services, team, and validations).
+The project uses Webpack with ts-loader to compile and bundle the TypeScript files.  
+The entry point is `src/main.ts`, which imports other modules (blog, products, services, team, and validations).  
 
 - **CSS and Responsiveness:**  
-The styles are organized in the `src/styles` folder. The design is responsive, adapting to various screen sizes.
+The styles are organized in the `src/styles` folder.  
+The design is responsive, adapting to various screen sizes.  
 
 - **JSON Data:**  
 Dynamic content (blog posts, products, services, team) is loaded from JSON files located in `src/data`.
@@ -193,13 +195,14 @@ ProjectPetShop/
 
 - TypeScript e Webpack:  
   O projeto utiliza o Webpack com o ts-loader para compilar e agrupar os arquivos TypeScript. 
-  O ponto de entrada é src/main.ts, que importa os demais módulos (blog, produtos, serviços, equipe e validações).
+  O ponto de entrada é `src/main.ts`, que importa os demais módulos (blog, produtos, serviços, equipe e validações).
 
 - CSS e Responsividade:  
-  Os estilos estão organizados na pasta src/styles. O design é responsivo, adaptando a exibição para diferentes tamanhos de tela.
+  Os estilos estão organizados na pasta `src/styles`.  
+  O design é responsivo, adaptando a exibição para diferentes tamanhos de tela.
 
 - Dados em JSON:  
-  Os conteúdos dinâmicos (posts do blog, produtos, serviços, equipe) são carregados a partir de arquivos JSON localizados em src/data.
+  Os conteúdos dinâmicos (posts do blog, produtos, serviços, equipe) são carregados a partir de arquivos JSON localizados em `src/data`.
 
 ## Scripts Úteis
 
