@@ -99,8 +99,8 @@ Dynamic content (blog posts, products, services, team) is loaded from JSON files
 In the `package.json` file, you will find scripts to build and manage the necessary files for the page's interactivity:
 
 - **Build:**
-   npm run build
-   Generates the final bundle in production mode (or in development mode if configured).
+      npm run build
+Generates the final bundle in production mode (or in development mode if configured).
 
 ### Author
 
@@ -206,8 +206,8 @@ ProjectPetShop/
 No arquivo package.json, você encontrará scripts para renderizar os scripts necessários para a interatividade da página:
 
 - **Build:**
-   npm run build
-   Gera o bundle final em modo produção (ou modo desenvolvimento se configurado).
+      npm run build
+Gera o bundle final em modo produção (ou modo desenvolvimento se configurado).
 
 ## Autor
 
