@@ -11,20 +11,21 @@ serviços, equipe e formulários de contato e newsletter, utilizando dados em fo
     src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
     alt="HTML5 logo" 
     width="80px" 
-    style="margin-right: 10px;"
   />
+  <br/>
   <img 
     src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" 
     alt="CSS3 logo" 
     width="80px" 
-    style="margin-right: 10px;"
   />
+  <br/>
   <img 
     src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" 
     alt="TypeScript logo" 
     width="80px"
   />
 </p>
+<br/>
 - Webpack para bundling
 - JSON para carregamento dos dados dinâmicos
 
@@ -41,6 +42,7 @@ serviços, equipe e formulários de contato e newsletter, utilizando dados em fo
 
 ## Estrutura do Projeto
 
+```
 ProjectPetShop/
 ├── dist/                   # Bundle gerado (arquivo(s) compilado(s) - ignorados no Git)
 ├── src/
@@ -55,7 +57,7 @@ ProjectPetShop/
 ├── shop.html               # Arquivo HTML da loja principal
 ├── tsconfig.json           # Configurações do compilador TypeScript
 └── webpack.config.js       # Configuração do Webpack para bundling
-
+```
 ## Instalação e Configuração
 
 1. Clone o repositório:
