@@ -7,43 +7,13 @@ serviços, equipe e formulários de contato e newsletter, utilizando dados em fo
 ## Tecnologias Utilizadas
 
 ### HTML5
-<svg 
-  width="80" 
-  height="80" 
-  viewBox="0 0 24 24" 
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path 
-    fill="#E34F26" 
-    d="M1.5 0h21l-1.91 21.67L11.56 24l-9.04-2.33L1.5 0zm15.22 7.8l.14-1.59h-8.8l.27 3.1h5.26l-.2 2.3H8.35l.27 3.07 2.94.79 2.94-.79.18-2.03h-1.78l.1-1.13h1.58l.21-2.41H8.06l-.67-7.6h11.22l-.89 10.06-.27 3.02-3.89 1.05-3.89-1.05-.25-2.77h2.14l.08.85 1.92.52 1.92-.52.2-2.24z"
-  />
-</svg>
+![HTML5 Logo](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
 
 ### CSS3
-<svg 
-  width="80" 
-  height="80" 
-  viewBox="0 0 24 24" 
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path 
-    fill="#1572B6" 
-    d="M1.5 0h21l-1.91 21.67L11.56 24l-9.04-2.33L1.5 0zm16.68 5.59l-.15 1.63H8.14l.28 3.14h9.44l-.28 2.98-.03.33-2.75.75h-.01l-2.76-.74-.18-1.97H8.56l.36 4.06 2.64.72 2.64.71h.01l2.63-.71.34-3.76h-1.99l-.17 1.92-1.45.4-1.45-.4-.14-1.58-.08-.92h6.01l.27-2.98.55-6.01z"
-  />
-</svg>
+![CSS3](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
 
 ### TypeScript
-<svg 
-  width="80" 
-  height="80" 
-  viewBox="0 0 24 24" 
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path 
-    fill="#3178C6" 
-    d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0H1.125zm6.747 4.688h8.172v1.688H9.622v12.25H7.872v-12.25H4.949V4.688h2.923zm5.899 4.375c1.953 0 3.264.41 4.004 1.237.667.742.96 1.88.96 3.411v4.18h-1.64v-4.047c0-.96-.164-1.629-.508-2.008-.346-.383-.954-.574-1.82-.574-.547 0-1.016.043-1.405.129-.391.09-.842.238-1.35.445v5.907h-1.64V9.984c.652-.28 1.273-.48 1.863-.602a7.447 7.447 0 011.57-.176z"
-  />
-</svg>
+![TypeScript](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg)
 
 - **Webpack** para bundling  
 - **JSON** para carregamento dinâmico
