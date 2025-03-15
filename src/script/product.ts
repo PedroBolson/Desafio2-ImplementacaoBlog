@@ -10,9 +10,8 @@ interface Product {
 
 let allProducts: Product[] = [];
 
-//deslocamento do input de pesquisa mobile
+// Deslocamento do input de pesquisa mobile
 const searchWrapper = document.querySelector('.search-wrapper') as HTMLElement;
-
 if (searchWrapper) {
     searchWrapper.addEventListener('click', () => {
         searchWrapper.classList.toggle('active');
@@ -152,7 +151,7 @@ function renderProducts(products: Product[]): void {
             }
         });
 
-        // Inserindo os botões no container de botões
+        // Inserindo os botões no container
         btnContainer.appendChild(quantitySelector);
         btnContainer.appendChild(addCartBtn);
 

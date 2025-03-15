@@ -176,7 +176,7 @@ function updateCartCount(): void {
     }
 }
 
-// Exibe uma mensagem de confirmação fixa
+// Mensagem de confirmação fixa
 function showConfirmationMessage(message: string): void {
     if (!confirmationMessage) return;
     confirmationMessage.textContent = message;
@@ -241,7 +241,7 @@ filterToggleBtn?.addEventListener("click", () => {
 
 checkoutBtn?.addEventListener("click", () => {
     showConfirmationMessage("Thank you for your purchase!");
-    cart = []; // Zera o carrinho
+    cart = [];
     renderCartItems();
     updateCartCount();
     closeCartOverlay();

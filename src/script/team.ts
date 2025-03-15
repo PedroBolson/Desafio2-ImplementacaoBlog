@@ -67,7 +67,6 @@ function renderTeam(team: Team[]): void {
         card.appendChild(infoDiv);
         card.appendChild(socialDiv);
 
-        // Adiciona ao container
         teamList.appendChild(card);
     });
 }

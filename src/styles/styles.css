@@ -1105,7 +1105,6 @@ body {
 }
 
 .contact-form input[type="checkbox"] {
-    /* Remove aparência nativa e define tamanho e formato */
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;

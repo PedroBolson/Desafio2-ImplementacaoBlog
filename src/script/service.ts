@@ -88,7 +88,7 @@ navServiceLinks.forEach((link) => {
     });
 });
 
-// Listener global para remover o active ao clicar fora de um card
+// Remover o active ao clicar fora de um card
 document.addEventListener("click", (event) => {
     if (
         !(event.target as HTMLElement).closest(".service-card") &&

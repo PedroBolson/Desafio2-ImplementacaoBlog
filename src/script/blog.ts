@@ -12,12 +12,12 @@ let allPosts: BlogPost[] = [];
 
 const blogList = document.getElementById("blog-list") as HTMLDivElement;
 
-// Carregar os dados do blog
+// Carregar os dados do JSON
 async function loadBlog(): Promise<void> {
     try {
         const response = await fetch("./src/data/blog.json");
         const data = await response.json();
-        allPosts = data.posts; // "posts" conforme o JSON
+        allPosts = data.posts;
         renderBlog(allPosts);
     } catch (error) {
         console.error("Erro ao carregar dados do blog:", error);
@@ -57,10 +57,9 @@ function renderBlog(posts: BlogPost[]): void {
         blogCard.appendChild(leftDiv);
         blogCard.appendChild(rightDiv);
 
-        // Adiciona ao container
         blogList.appendChild(blogCard);
     });
 }
 
-// Chama a função de carregamento quando o script for executado
+// Carrega ao abrir a página
 loadBlog();
