@@ -6,52 +6,48 @@ serviços, equipe e formulários de contato e newsletter, utilizando dados em fo
 
 ## Tecnologias Utilizadas
 
-### HTML
+### HTML5
 <svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  width="100" 
-  height="100" 
-  viewBox="0 0 48 48"
+  width="80" 
+  height="80" 
+  viewBox="0 0 24 24" 
+  xmlns="http://www.w3.org/2000/svg"
 >
-  <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
-  <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
-  <path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path>
-  <path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+  <path 
+    fill="#E34F26" 
+    d="M1.5 0h21l-1.91 21.67L11.56 24l-9.04-2.33L1.5 0zm15.22 7.8l.14-1.59h-8.8l.27 3.1h5.26l-.2 2.3H8.35l.27 3.07 2.94.79 2.94-.79.18-2.03h-1.78l.1-1.13h1.58l.21-2.41H8.06l-.67-7.6h11.22l-.89 10.06-.27 3.02-3.89 1.05-3.89-1.05-.25-2.77h2.14l.08.85 1.92.52 1.92-.52.2-2.24z"
+  />
 </svg>
 
-### CSS
+### CSS3
 <svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  width="100" 
-  height="100" 
-  viewBox="0 0 48 48"
+  width="80" 
+  height="80" 
+  viewBox="0 0 24 24" 
+  xmlns="http://www.w3.org/2000/svg"
 >
-  <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
-  <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
-  <path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path>
-  <path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
+  <path 
+    fill="#1572B6" 
+    d="M1.5 0h21l-1.91 21.67L11.56 24l-9.04-2.33L1.5 0zm16.68 5.59l-.15 1.63H8.14l.28 3.14h9.44l-.28 2.98-.03.33-2.75.75h-.01l-2.76-.74-.18-1.97H8.56l.36 4.06 2.64.72 2.64.71h.01l2.63-.71.34-3.76h-1.99l-.17 1.92-1.45.4-1.45-.4-.14-1.58-.08-.92h6.01l.27-2.98.55-6.01z"
+  />
 </svg>
 
 ### TypeScript
 <svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  width="100" 
-  height="100" 
-  viewBox="0 0 48 48"
+  width="80" 
+  height="80" 
+  viewBox="0 0 24 24" 
+  xmlns="http://www.w3.org/2000/svg"
 >
-  <linearGradient id="O2zipXlwzZyOse8_3L2yya_wpZmKzk11AzJ_gr1" x1="15.189" x2="32.276" y1="-.208" y2="46.737" gradientUnits="userSpaceOnUse">
-    <stop offset="0" stop-color="#2aa4f4"></stop>
-    <stop offset="1" stop-color="#007ad9"></stop>
-  </linearGradient>
-  <rect width="36" height="36" x="6" y="6" fill="url(#O2zipXlwzZyOse8_3L2yya_wpZmKzk11AzJ_gr1)"></rect>
-  <polygon fill="#fff" points="27.49,22 14.227,22 14.227,25.264 18.984,25.264 18.984,40 22.753,40 22.753,25.264 27.49,25.264"></polygon>
-  <path fill="#fff" d="M39.194,26.084c0,0-1.787-1.192-3.807-1.192s-2.747,0.96-2.747,1.986c0,2.648,7.381,2.383,7.381,7.712
-    c0,8.209-11.254,4.568-11.254,4.568V35.22c0,0,2.152,1.622,4.733,1.622s2.483-1.688,2.483-1.92c0-2.449-7.315-2.449-7.315-7.878
-    c0-7.381,10.658-4.469,10.658-4.469L39.194,26.084z"></path>
+  <path 
+    fill="#3178C6" 
+    d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0H1.125zm6.747 4.688h8.172v1.688H9.622v12.25H7.872v-12.25H4.949V4.688h2.923zm5.899 4.375c1.953 0 3.264.41 4.004 1.237.667.742.96 1.88.96 3.411v4.18h-1.64v-4.047c0-.96-.164-1.629-.508-2.008-.346-.383-.954-.574-1.82-.574-.547 0-1.016.043-1.405.129-.391.09-.842.238-1.35.445v5.907h-1.64V9.984c.652-.28 1.273-.48 1.863-.602a7.447 7.447 0 011.57-.176z"
+  />
 </svg>
 
 - **Webpack** para bundling  
-- **JSON** para carregamento dos dados dinâmicos
+- **JSON** para carregamento dinâmico
+
 
 ## Funcionalidades
 
