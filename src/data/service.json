@@ -1,0 +1,39 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "Grooming",
+            "description": "Serviço de banho e tosa profissional.",
+            "image": "./src/images/Grooming.png",
+            "alt": "A smiling young woman with long dark hair in a bright yellow shirt cuddles a small fluffy dog against a vibrant turquoise background."
+        },
+        {
+            "id": 2,
+            "title": "Boarding",
+            "description": "Hotelzinho para o seu pet com todo o conforto.",
+            "image": "./src/images/Boarding.png",
+            "alt": "A woman wearing sunglasses stands in an outdoor dog play area, surrounded by several dogs of different breeds and sizes, with a small plastic slide and a chain-link fence visible in the background."
+        },
+        {
+            "id": 3,
+            "title": "Veterinary",
+            "description": "Atendimento veterinário especializado.",
+            "image": "./src/images/Veterinary.png",
+            "alt": "A smiling male veterinarian in a white coat, with a stethoscope around his neck, holds a light-brown dog in a clinic setting, with a patterned wall hanging in the background."
+        },
+        {
+            "id": 4,
+            "title": "Training",
+            "description": "Treinamento e adestramento para cães de todas as idades.",
+            "image": "./src/images/Training.png",
+            "alt": "A tan and white dog indoors, intently focused on three upside-down cups on a wooden floor, while a person’s hand moves one of the cups. Shelving and furniture are visible in the background."
+        },
+        {
+            "id": 5,
+            "title": "Adoption",
+            "description": "Encontre seu novo amigo de quatro patas.",
+            "image": "./src/images/Adoption.png",
+            "alt": "A white dog wearing a blue collar sits inside a large, arched dog house painted in rainbow colors, with some loose fur on the floor in front, all set against a plain white background."
+        }
+    ]
+}
