@@ -139,13 +139,13 @@ function renderProducts(products: Product[]): void {
 
         addCartBtn.addEventListener("click", () => {
             if (currentQuantity <= product.quantity) {
+                const unitLabel = currentQuantity > 1 ? 'units' : 'unit';
                 showAlert(
-                    `Produto "${product.name}" adicionado ao carrinho! Quantidade: ${currentQuantity}`,
-                    "success"
-                );
+                    `${currentQuantity} ${unitLabel} of ${product.name} added to your cart!`,
+                    'success');
             } else {
                 showAlert(
-                    "Ops, não há esta quantidade de itens em estoque, desculpe!",
+                    "Oops, we don't have this amount in stock, sorry!",
                     "warning"
                 );
             }

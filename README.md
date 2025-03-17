@@ -11,21 +11,21 @@ Developed exclusively with HTML, CSS, and TypeScript, the project features dynam
 
 #### HTML  
 <img 
-  src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+  src="./src/images/HTML5_Badge.svg" 
   alt="HTML5 logo" 
   width="80px"
 />
 
 #### CSS  
 <img 
-  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" 
+  src="./src/images/css-icon.svg" 
   alt="CSS3 logo" 
   width="80px"
 />
 
 #### TypeScript  
 <img 
-  src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" 
+  src="./src/images/typescript.svg" 
   alt="TypeScript logo" 
   width="80px"
 />
@@ -112,32 +112,32 @@ Pedro Bolson
 
 ## Português
 
-Pet Shop Project é uma landing page interativa para uma loja de produtos e serviços para pets. 
+Pet Shop Project é uma landing page interativa para uma loja de produtos e serviços para pets.   
 Desenvolvido exclusivamente com HTML, CSS e TypeScript, o projeto apresenta seções dinâmicas, como blog, produtos, 
 serviços, equipe e formulários de contato e newsletter, utilizando dados em formato JSON para renderização dos conteúdos.
 
 ## Tecnologias Utilizadas
 
-### HTML
-  <img 
-    src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
-    alt="HTML5 logo" 
-    width="80px"
-  />
+#### HTML  
+<img 
+  src="./src/images/HTML5_Badge.svg" 
+  alt="HTML5 logo" 
+  width="80px"
+/>
 
-### CSS
-  <img 
-    src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" 
-    alt="CSS3 logo" 
-    width="80px"
-  />
+#### CSS  
+<img 
+  src="./src/images/css-icon.svg" 
+  alt="CSS3 logo" 
+  width="80px"
+/>
 
-### TypeScript
-  <img 
-    src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" 
-    alt="TypeScript logo" 
-    width="80px"
-  />
+#### TypeScript  
+<img 
+  src="./src/images/typescript.svg" 
+  alt="TypeScript logo" 
+  width="80px"
+/>
 
 - **Webpack** para bundling  
 - **JSON** para carregamento dinâmico
@@ -189,7 +189,7 @@ ProjectPetShop/
    `npm run build`  
 
 5. **Abra o projeto:**  
-   Abra o arquivo index.html no seu navegador ou utilize um servidor local (como o Live Server) para visualizar a aplicação.
+   Abra o arquivo `index.html` no seu navegador ou utilize um servidor local (como o Live Server) para visualizar a aplicação.
 
 ## Desenvolvimento
 

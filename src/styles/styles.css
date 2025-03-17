@@ -1021,6 +1021,7 @@ body {
     border-radius: 8px;
     object-fit: cover;
     display: block;
+    cursor: pointer;
 }
 
 /* Fim do css do blog */

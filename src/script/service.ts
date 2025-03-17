@@ -3,6 +3,7 @@ interface Service {
     title: string;
     description: string;
     image: string;
+    alt: string;
 }
 
 let allServices: Service[] = [];
@@ -21,7 +22,7 @@ async function loadServices(): Promise<void> {
     }
 }
 
-
+// Cria os cards
 function renderServices(services: Service[]): void {
     serviceList.innerHTML = "";
 
@@ -32,7 +33,7 @@ function renderServices(services: Service[]): void {
         // Imagem
         const img = document.createElement("img");
         img.src = service.image;
-        img.alt = service.title;
+        img.alt = service.alt;
 
         const overlayDiv = document.createElement("div");
         overlayDiv.classList.add("service-overlay");
