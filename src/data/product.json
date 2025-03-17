@@ -330,6 +330,17 @@
             "quantity": 15,
             "image": "./src/images/Aquarium_Decoration5.png",
             "description": "Decoração para aquário."
+        },
+        {
+            "id": 32,
+            "categories": [
+                "fish"
+            ],
+            "name": "Sponge Filter",
+            "price": 26000.00,
+            "quantity": 15,
+            "image": "./src/images/Sponge_Filter.png",
+            "description": "Filtro para aquário."
         }
     ]
 }
