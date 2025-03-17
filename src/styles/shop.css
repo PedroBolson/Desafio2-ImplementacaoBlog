@@ -464,7 +464,6 @@ header {
     background-color: #3b3b3b;
 }
 
-/* Responsividade para Produtos */
 @media (max-width: 1024px) {
     .logo {
         font-size: 1rem;
