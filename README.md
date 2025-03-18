@@ -76,11 +76,11 @@ ProjectPetShop/
    `npm install`
 
 4. **Compile the project:**  
-   Run the command below for Webpack to bundle the TypeScript files and generate the single file in `dist/main.js:
+   Run the commands below for Webpack to bundle the TypeScript files and generate the single file in `dist/main.js`:  
+   `npm run build`  
+   `tsc ./src/script/shop.ts --outDir ./dist/script/`  
 
-   `npm run build`
-
-5. **Open the project:**  
+6. **Open the project:**  
    Open the `index.html` file in your browser or use a local server (such as Live Server) to view the application.
 
 ### Development
@@ -184,11 +184,11 @@ ProjectPetShop/
    `npm install`
 
 4. **Compile o projeto:**  
-   Execute o comando abaixo para que o Webpack faça o bundle dos arquivos TypeScript e gere o arquivo único em dist/main.js:  
-     
+   Rode os comandos a baixo para o Webpack unir os arquivos TypeScript em um unico arquivo em `dist/main.js`:  
    `npm run build`  
-
-5. **Abra o projeto:**  
+   `tsc ./src/script/shop.ts --outDir ./dist/script/`
+   
+6. **Abra o projeto:**  
    Abra o arquivo `index.html` no seu navegador ou utilize um servidor local (como o Live Server) para visualizar a aplicação.
 
 ## Desenvolvimento
