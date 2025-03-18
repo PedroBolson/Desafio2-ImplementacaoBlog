@@ -70,7 +70,7 @@ ProjectPetShop/
 
 
 2. **Navigate to the project folder:**  
-   `cd ProjectPetShop`
+   `cd Desafio2-ImplementacaoBlog`
 
 3. **Install dependencies:**  
    `npm install`
@@ -178,7 +178,7 @@ ProjectPetShop/
    `git clone https://github.com/PedroBolson/Desafio2-ImplementacaoBlog.git`
 
 2. **Navegue até a pasta do projeto:**  
-   `cd ProjectPetShop`
+   `cd Desafio2-ImplementacaoBlog`
 
 3. **Instale as dependências:**  
    `npm install`
